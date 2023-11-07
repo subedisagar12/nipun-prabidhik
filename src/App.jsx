@@ -1,9 +1,15 @@
 import "./App.css";
+import Layout from "./components/Layout";
+import Topbar from "./components/Topbar";
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <div style={{ marginBottom: "80px" }}>
+        <Topbar />
+      </div>
+
+      <Layout />
     </>
   );
 }
